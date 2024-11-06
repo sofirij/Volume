@@ -38,20 +38,16 @@ The program accepts three command-line arguments:
 ### Compilation
 
 To compile the program, navigate to the folder containing `volume.c` and run:
-
-```bash
 gcc -o volume volume.c -lm
 
 Running the Program
 To run the program, use the following command:
-
-bash
 ./volume input.wav output.wav factor
 input.wav: The path to the input WAV file.
 output.wav: The path where the modified WAV file will be saved.
 factor: The scaling factor for volume adjustment (e.g., 2.0 to double the volume, 0.5 to halve it).
+
 Example
-bash
 ./volume input.wav output.wav 2.0
 This command doubles the volume of input.wav and saves the modified audio as output.wav.
 
